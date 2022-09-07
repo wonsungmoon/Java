@@ -1,4 +1,4 @@
-package src.Practise.classpart;
+package src.classpart;
 
 public class FunctionTest {
     public static void main(String[] args) {
