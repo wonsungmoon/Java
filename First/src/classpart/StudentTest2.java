@@ -10,5 +10,6 @@ public class StudentTest2 {
 
         System.out.println(student1);
         System.out.println(student2);
+        //참조 변수 값 출력
     }
 }
