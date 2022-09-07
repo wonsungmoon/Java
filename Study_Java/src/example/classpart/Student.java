@@ -1,4 +1,4 @@
-package src.classpart;
+package src.example.classpart;
 
 public class Student {
     int studentID;
