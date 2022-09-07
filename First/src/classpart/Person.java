@@ -1,4 +1,4 @@
-package classpart;
+package src.classpart;
 
 public class Person {
     String name;
