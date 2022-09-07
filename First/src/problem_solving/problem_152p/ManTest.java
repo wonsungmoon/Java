@@ -1,9 +1,7 @@
-package src.problem_solving;
-
-import src.classpart.Student;
-import src.problem_solving.Man;
+package src.problem_solving.problem_152p;
 
 public class ManTest {
+    //152페이지 1번 문제
     public static void main(String[] args) {
 
         Man Man1 = new Man();

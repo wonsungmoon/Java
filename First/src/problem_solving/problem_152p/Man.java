@@ -1,6 +1,7 @@
-package src.problem_solving;
+package src.problem_solving.problem_152p;
 
 public class Man {
+    //152페이지 1번 문제
     int Man_age;
     String Man_name;
     boolean Man_isMarried;
