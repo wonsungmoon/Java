@@ -2,6 +2,7 @@ package src.example.inheritance;
 
 public class CustomerTest1 {
     public static void main(String[] args) {
+        /*
         Customer customerLee = new Customer();
         customerLee.setCustomerID((10010));
         customerLee.setCustomerName("이순신"); //customerID와 customerName은 protected 변수이므로 set() 메서드 호출
@@ -13,5 +14,7 @@ public class CustomerTest1 {
         customerKim.setCustomerName("김유신"); //customerID와 customerName은 protected 변수이므로 set() 메서드 호출
         customerKim.bonusPoint = 10000;
         System.out.println(customerKim.showCustomerInfo());
+
+         */
     }
 }
