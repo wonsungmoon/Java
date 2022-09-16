@@ -9,4 +9,7 @@ public interface Calc {
     int times(int num1, int num2);
     int divide(int num1, int num2);
     //인터페이스에서 선언한 메서드는 컴파일 과정에서 추상 메서드로 변환됨
+    default void description() {
+        System.out.println("정수 계산기를 구현합니다.");
+    }
 }
