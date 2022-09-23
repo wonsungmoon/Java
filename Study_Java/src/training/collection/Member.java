@@ -1,4 +1,4 @@
-package src.example.collection;
+package src.training.collection;
 
 public class Member {
     private int memberId; //회원 아이디
