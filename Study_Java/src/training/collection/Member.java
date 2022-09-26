@@ -1,6 +1,6 @@
 package src.training.collection;
 
-public class Member {
+public class Member implements Comparable<Member> {
     private int memberId; //회원 아이디
     private String memberName; //회원 이름
     //속성
@@ -46,4 +46,9 @@ public class Member {
         }
         return false;
     }
+    
+    @Override
+    public int compareTo(Member member) {
+        return (this.memberId - member.memberId);
+    } //compareTo() 메서드 재정의. 추가한 회원 아이디와 매개변수로 받은 회원 아이디를 비교함
 }
