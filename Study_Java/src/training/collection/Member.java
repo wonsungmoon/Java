@@ -49,6 +49,6 @@ public class Member implements Comparable<Member> {
     
     @Override
     public int compareTo(Member member) {
-        return (this.memberId - member.memberId);
+        return (this.memberId - member.memberId) * (-1);
     } //compareTo() 메서드 재정의. 추가한 회원 아이디와 매개변수로 받은 회원 아이디를 비교함
 }
