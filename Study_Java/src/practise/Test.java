@@ -1,18 +1,14 @@
 package src.practise;
 
-import java.sql.Array;
-import java.util.ArrayList;
-
 public class Test {
     public static void main(String[] args){
+        int[] arr = new int[5];
 
-        ArrayList<String> shelf;
-        shelf  = new ArrayList<String>();
-
-        System.out.println(shelf);
-
+        for(int i = 0; i <= 5; i++) {
+            arr[i] = i;
+            System.out.println(arr[i]);
+        }
     }
-
 }
 
 
