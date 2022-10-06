@@ -13,6 +13,8 @@ public class SystemInTest1 {
             System.out.println((char)i); //문자로 변환하여 출력
         } catch (IOException e) {
             e.printStackTrace();
-        } finally
+        } finally {
+
+        }
     }
 }
