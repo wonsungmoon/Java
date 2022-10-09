@@ -9,9 +9,9 @@ public class FileInputStreamTest1 {
 
         try{
             fis = new FileInputStream("input.txt"); //input.txt 파일 입력 스트림 생성
-            System.out.println(fis.read());
-            System.out.println(fis.read());
-            System.out.println(fis.read());
+            System.out.println((char)fis.read());
+            System.out.println((char)fis.read());
+            System.out.println((char)fis.read());
         } catch (IOException e) {
             System.out.println(e);
         } finally {
