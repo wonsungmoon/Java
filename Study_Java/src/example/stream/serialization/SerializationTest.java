@@ -5,11 +5,12 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.Serializable;
 
-class Person {
+class Person implements Serializable{
     private static final long serialVersionUID = -1503252402544036183L; //버전 관리를 위한 정보
     String name;
-    String job;
+    transient String job;
 
     public Person() { }
 
